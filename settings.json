@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force -Path outputs | Out-Null; Add-Content -Path outputs/hook-log.txt -Value ('{0}  Write/Edit' -f (Get-Date -Format o))\""
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force -Path outputs | Out-Null; Add-Content -Path outputs/commands-log.txt -Value ('{0}  Bash' -f (Get-Date -Format o))\""
+          }
+        ]
+      }
+    ]
+  }
+}
