@@ -1,4 +1,0 @@
-cluster,size,pct_of_total,mean_log_amount,fraud_rate,top3_driving_features
-0,20341,7.142,-0.1399,0.006244,V12|hour_of_day|V13
-1,37878,13.3,0.619,0.000106,V16|V9|V18
-2,226588,79.558,-0.0909,0.001593,V12|V16|V18
