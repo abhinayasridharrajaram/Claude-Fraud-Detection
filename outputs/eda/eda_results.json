@@ -1,0 +1,157 @@
+{
+  "row_count": 284807,
+  "disk_mb": 102.9,
+  "columns": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount",
+    "Class"
+  ],
+  "n_fraud": 492,
+  "fraud_pct": 0.1727,
+  "n_legit": 284315,
+  "min_time_sec": 0.0,
+  "max_time_sec": 172792.0,
+  "span_hours": 48.0,
+  "peak_fraud_hour": 2,
+  "peak_fraud_rate_pct": 1.7127,
+  "fraud_by_day": [
+    {
+      "day": 0,
+      "n_transactions": 144786,
+      "n_fraud": 281.0,
+      "fraud_rate_pct": 0.1941
+    },
+    {
+      "day": 1,
+      "n_transactions": 140021,
+      "n_fraud": 211.0,
+      "fraud_rate_pct": 0.1507
+    }
+  ],
+  "legit_amount_median": 22.04,
+  "fraud_amount_median": 9.54,
+  "legit_amount_mean": 88.29,
+  "fraud_amount_mean": 122.21,
+  "legit_amount_max": 25691.16,
+  "fraud_amount_max": 2125.87,
+  "n_zero_amount": 1825,
+  "zero_amount_fraud_n": 27,
+  "zero_amount_fraud_pct": 1.4795,
+  "features_flagged_mean": [
+    "hour_of_day",
+    "log_amount"
+  ],
+  "top6_corr": [
+    {
+      "feature": "V17",
+      "corr_with_class": -0.326481,
+      "abs_corr": 0.326481
+    },
+    {
+      "feature": "V14",
+      "corr_with_class": -0.302544,
+      "abs_corr": 0.302544
+    },
+    {
+      "feature": "V12",
+      "corr_with_class": -0.260593,
+      "abs_corr": 0.260593
+    },
+    {
+      "feature": "V10",
+      "corr_with_class": -0.216883,
+      "abs_corr": 0.216883
+    },
+    {
+      "feature": "V16",
+      "corr_with_class": -0.196539,
+      "abs_corr": 0.196539
+    },
+    {
+      "feature": "V3",
+      "corr_with_class": -0.192961,
+      "abs_corr": 0.192961
+    }
+  ],
+  "top_discriminating_feature": "V14",
+  "top_sep_score": 2.259076,
+  "top_mean_diff": -6.983787,
+  "top6_sep": [
+    {
+      "feature": "V14",
+      "mean_legit": 0.012064,
+      "mean_fraud": -6.971723,
+      "mean_diff": -6.983787,
+      "pooled_std": 3.091436,
+      "sep_score": 2.259076
+    },
+    {
+      "feature": "V4",
+      "mean_legit": -0.00786,
+      "mean_fraud": 4.542029,
+      "mean_diff": 4.549889,
+      "pooled_std": 2.259877,
+      "sep_score": 2.013335
+    },
+    {
+      "feature": "V11",
+      "mean_legit": -0.006576,
+      "mean_fraud": 3.800173,
+      "mean_diff": 3.806749,
+      "pooled_std": 2.022518,
+      "sep_score": 1.882183
+    },
+    {
+      "feature": "V12",
+      "mean_legit": 0.010832,
+      "mean_fraud": -6.259393,
+      "mean_diff": -6.270225,
+      "pooled_std": 3.35848,
+      "sep_score": 1.866983
+    },
+    {
+      "feature": "V10",
+      "mean_legit": 0.009824,
+      "mean_fraud": -5.676883,
+      "mean_diff": -5.686707,
+      "pooled_std": 3.540785,
+      "sep_score": 1.606058
+    },
+    {
+      "feature": "V16",
+      "mean_legit": 0.007164,
+      "mean_fraud": -4.139946,
+      "mean_diff": -4.14711,
+      "pooled_std": 2.797511,
+      "sep_score": 1.482429
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+model,precision_top1pct,precision_top01pct,recall_top1pct,roc_auc
+IsolationForest,0.0986,0.3544,0.5711,0.949
+LocalOutlierFactor,0.0067,0.0,0.0386,0.5126
+OneClassSVM,0.0972,0.1404,0.563,0.9451
